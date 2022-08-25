@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+nav{
+    align-items: center;
+    background: #fff;
+}
+nav img{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar-nav{
+    margin-left: 40%;
+    margin-right: 3%;
+}
+.navbar-nav a{
+    color: #000 !important;
+
+}
+.navbar-nav a:hover{
+    background: #ff0000;
+    padding: 9px 17px;
+    border-radius: 50px;
+    color: #fff !important;
+}
+.row{
+    margin-top: 10%;
+}
+.col img{
+    width: 400px;
+}
+.col h1{
+    color: #fff !important;
+    font-weight: bold;
+}
+.col span{
+    color: #ff0000;
+}
+.auto-type {
+    font-size: 30px;
+}
+.bi{
+    font-size: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.bi-linkedin:hover{
+    color: blue;
+}
+.bi-envelope-fill:hover{
+    color: rgb(233, 233, 55);
+}
+.btn{
+    margin-top: 20px;
+    color: #fff !important;
+    background: #ff0000 ;
+    padding: 9px 17px;
+    border-radius: 50px;
+}
+
+/* About Me */
+
+.bi-person-fill{
+    color: #000;
+}
+.col1 img{
+    width: 350px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.row-cols-2{
+    font-size: 13px;
+}
+.btn2{
+    margin-bottom: 50px;
+}
+
+.btn2:hover{
+    color: #000 !important;
+    border: 1px solid #000 !important;
+}
+.title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/* Education */
+
+.bi-mortarboard-fill, .bi-stars, .bi-person-rolodex{
+    color: #000;
+}
+#Education .container{
+    width: 100%;
+}
+
+#Education .col{
+    margin-left: 80px;
+    margin-right: 80px;
+   margin-top: 50px;
+   background: transparent;
+   border: 1px solid #000;
+   padding: 60px;
+   font-size: 13px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   transition: transform 0.2s, background 0.6s;
+}
+#Education .col:hover{
+    transform: rotateX(20deg) !important;
+    background: rgba(0,0,0,0.4);
+}
+#Education .col:hover p, #Education .col:hover h5{
+    color: #fff;
+}
+
+#Education img{
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+#Education h5{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#Education p{
+    margin-top: 30px;
+}
+.line {
+    background: #000;
+    width:  100%;
+    height: 1px;
+    display: block;
+}
+.year{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Experience */
+
+#Experiences{
+    background: #000;
+}
+#Experiences h3, .bi-wrench-adjustable-circle-fill{
+    color: #fff;
+    margin-top: 50px;
+}
+
+#Experiences .col {
+   margin-top: 70px;
+   margin-left: 10px;
+   margin-right: 10px;
+   background: transparent;
+   border: 1px solid #fff;
+   padding: 20px;
+   font-size: 13px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   transition: background 0.5s, transform 0.2s;
+}
+#Experiences .col:hover{
+    background: #ff0000;
+    border: #ff0000;
+    transform: translateY(-30px) !important;
+}
+#Experiences img{
+    width: 150px;
+}
+#Experiences h4{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+#Experiences h5{
+    color: #fff;
+}
+#Experiences p{
+    color: #fff;
+}
+#Experiences small{
+    color: #fff;
+}
+.col2{
+    background: #ff0000 !important;
+    border: #ff0000 !important;
+    transform: translateY(-30px) !important;
+}
+.col2 h5{
+    margin-top: 30px;
+}
+.col2 p{
+    margin-top: 20px;
+}
+.col2 small{
+    margin-bottom: 10px;
+}
+
+
+
+#skillz .row{
+margin-top: 50px;
+}
+#skillz .col{
+    margin: auto 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#skillz h3{
+    margin-top: 50px;
+}
+#skillz img{
+    width: 250px;
+    height: 300px;
+    display: block;
+    cursor: pointer;
+}
+.row2{
+    margin-top: -40px;
+}
+.layer{
+    width: 80%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff0000);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+  }
+  #skillz .col:hover h6{
+    color: #fff;
+  }
+  #skillz .col:hover p{
+    color: #fff;
+  }
+  #skillz .col:hover .layer{
+    height: 100%;
+  }
+.active-col .layer{
+    height: 100%;
+}
+.active-col h6{
+    color: #fff !important;
+}
+.active-col p{
+    color: #fff !important;
+}
+
+/* Contact */
+
+#contact .col{
+    margin-top: 30px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #ff0000;
+    outline: #ff0000;
+    background: transparent;
+    padding: 15px;
+    margin: 15px;
+    color: #000;
+    font-size: 18px;
+    border-radius: 6px;
+ }
+ #contact .title{
+    margin-top: -50px;
+ }
+
+  /* Footer */
+
+  #footer{
+    background: #000;
+    bottom: 0;
+  }
+  #footer .bi{
+    font-size: 20px !important;
+  }
+  #footer h5{
+    margin-top: 30px;
+    color: #fff;
+  }
+  #footer p{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #fff;
+  }
+  #footer ul li{
+    margin-top: 10px;
+    list-style: none;
+  }
+#footer ul li a{
+    text-decoration: none;
+    color: #fff !important;
+    transition: 0.5s;
+  }
+.bi-caret-right-fill{
+    color: #fff;
+  }
+  #footer ul li a:hover{
+    color: #ff0000 !important;
+  }
+  #footer ul li a:hover .bi-caret-right-fill{
+    color: #ff0000 !important;
+  }
+ .bi-heart-fill{
+    color: #ff0000 !important;
+  }
+
+
+
+
+  @media only screen and (max-width: 820px){
+    .video{
+        display: none;
+    }
+    #header .bi{
+        font-size: 20px;
+    }
+    #header h1{
+        font-size: 25px;
+    }
+    #header .col{
+        margin-left: 20px;
+    }
+    #header span{
+        font-size: 20px;
+    }
+
+    #header .btn{
+        margin-bottom: 30px;
+    }
+    .About-me{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .background{
+        background: #000;
+        height: auto;
+    }
+    .user{
+        display: none;
+    }
+    .me{
+        width: 400px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .col{
+        flex-basis: 80%;
+        position: relative;
+    }
+    #Education .col{
+        padding: 30px;
+        font-size: 12px;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+    #Experiences .col{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #skillz .col{
+        margin-top: 8px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #contact img{
+        width: 250px;
+    }
+    form{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #footer p{
+        margin-top: -5px;
+    }
+  }
